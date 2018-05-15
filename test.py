@@ -44,7 +44,7 @@ def main():
 		print average_ndcg
 		total_ndcg += average_ndcg
 	total_ndcg /= 5.0
-	print 'Original average ndcg at 10 is: ' + str(total_ndcg)
+	print 'Sklearn average ndcg at 10 is: ' + str(total_ndcg)
 
 	total_ndcg = 0.0
 	for i in [1,2,3,4,5]:
@@ -60,7 +60,7 @@ def main():
 		print average_ndcg
 		total_ndcg += average_ndcg
 	total_ndcg /= 5.0
-	print 'Sklearn average ndcg at 10 is: ' + str(total_ndcg)
+	print 'Original average ndcg at 10 is: ' + str(total_ndcg)
 
 	# print 'NDCG score: %f' % (average_ndcg)
 	# query_indexes = group_queries(test_data)
